@@ -1,0 +1,80 @@
+guest = ['danzel','dan','josh']
+
+guest =['miguel . S', 'jose . D', 'rose']
+
+name = guest[0].title()
+print(f"{name}, please come to dinner")
+
+name = guest[1].title ()
+print(f"{name}, please come to dinner")
+
+name = guest[2].title ()
+print(f"{name}, please come to dinner")
+
+name = guest[1].title ()
+print(f"\nSorry, {name } can't make it on dinner.")
+
+del(guest [1])
+guest.insert(1, 'princess')
+
+name = guest[0].title()
+print(f"\n{name}, please come to dinner")
+
+name = guest[1].title ()
+print(f"{name}, please come to dinner")
+
+name = guest[2].title ()
+print(f"{name}, please come to dinner")
+
+
+
+
+print("\nWe got a bigger table!.")
+guest.insert(0,'jame elbe')
+guest.insert(2,'mica mae')
+guest.append('kim chong')
+
+
+name = guest [0].title()
+print(f"{name}, please come to dinner")
+
+name = guest [1].title()
+print(f"{name}, please come to dinner")
+
+name = guest [2].title()
+print(f"{name}, please come to dinner")
+
+name = guest [3].title()
+print(f"{name}, please come to dinner")
+
+name = guest [4].title()
+print(f"{name}, please come to dinner")
+
+name = guest [5].title()
+print(f"{name}, please come to dinner")
+
+
+name = guest.pop()
+print(f"Sorry, {name. title()} threr's no more room at the table.")
+
+name = guest.pop()
+print(f"Sorry, {name. title()} threr's no more room at the table.")
+
+name = guest.pop()
+print(f"Sorry, {name. title()} threr's no more room at the table.")
+
+name = guest.pop()
+print(f"Sorry, {name. title()} threr's no more room at the table.")
+
+
+
+name = guest[0].title()
+print(f"{name}, please come to dinner.")
+
+name = guest[0].title()
+print(f"{name}, please come to dinner.")
+
+del(guest[0])
+del(guest[0])
+
+print(guest)

@@ -1,0 +1,11 @@
+guest = ['miguel', 'belly', 'josh']
+
+name = guest [0].title()
+print(f"{name}, please be my friend.")
+
+name = guest [1].title()
+print(f"{name}, please be my friend.")
+
+name = guest [2].title()
+print(f"{name}, please be my friend.")
+

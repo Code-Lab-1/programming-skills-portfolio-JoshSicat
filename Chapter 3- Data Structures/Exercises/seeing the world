@@ -1,0 +1,28 @@
+locations = ['Naki', 'adidas','puma','new balance','converse']
+
+print("original order:")
+print(locations)
+
+print("\nAplabetical:")
+print(sorted(locations))
+
+print("\nOriginal order:")
+print(locations)
+
+print("\nReverse alpabetcal:")
+print(sorted(locations, reverse=True))
+
+print("\nOriginal order:")
+print(locations)
+
+print("\nReverse:")
+locations.reverse()
+print(locations)
+
+print("\nAlpabetical")
+locations.sort()
+print(locations)
+
+print("\nReverse alpabetical")
+locations.sort(reverse=True)
+print(locations)
